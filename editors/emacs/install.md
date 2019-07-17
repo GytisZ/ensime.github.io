@@ -83,7 +83,7 @@ Note that the ensime-server `3.0.0-SNAPSHOT` releases are incompatible with the 
 We would rather that you used stock Emacs with `evil-mode`. However, if you still choose to use Spacemacs, you must add these lines to your `dotspacemacs/user-init` to mimic the configuration above.
 
 ```elisp
-(push '("melpa-stable" . "stable.melpa.org/packages/") configuration-layer--elpa-archives)
+(push '("melpa-stable" . "stable.melpa.org/packages/") configuration-layer-elpa-archives)
 (push '("ensime" . "melpa-stable") package-pinned-packages)
 ```
 
